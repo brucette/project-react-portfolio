@@ -6,9 +6,9 @@ export const Tech = () => {
     <OuterWrapper>
       <MainHeadline>TECH</MainHeadline>
       <InnerWrapper>
-        <Paragraph>HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks,
-        Redux, Node.js, Mongo DB, Web Accessibility, Responsive Design, API:s, Mob-programming,
-        Pair-programming, Github, Python, C, Flask, Sqlite3, Linux.
+        <Paragraph>JavaScript ES6, React, Node.js, HTML, CSS, Flexbox, JSX, React Hooks,
+        Redux,  Mongo DB, Web Accessibility, Responsive Design, REST APIs, Mob-programming,
+        Pair-programming, Git, Python, C, Flask, Sqlite3, Docker.
         </Paragraph>
       </InnerWrapper>
     </OuterWrapper>

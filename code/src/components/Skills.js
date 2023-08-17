@@ -17,8 +17,10 @@ export const Skills = () => {
             <li>GitHub</li>
             <li>Redux</li>
             <li>Node.js</li>
-            <li>Mongo DB</li>
+            <li>Mongoose</li>
             <li>Python</li>
+            <li>Flask</li>
+            <li>Sqlite3</li>
             <li>C</li>
           </List>
         </div>
@@ -26,8 +28,9 @@ export const Skills = () => {
           <SmallHeadline>TOOLBOX</SmallHeadline>
           <List>
             <li>Visual Studio Code</li>
-            <li>Terminal</li>
-            <li>Stack Overflow</li>
+            <li>GCP</li>
+            <li>Mongo DB</li>
+            <li>Docker</li>
             <li>Figma</li>
             <li>Slack</li>
           </List>
@@ -35,9 +38,8 @@ export const Skills = () => {
         <div>
           <SmallHeadline>UPCOMING</SmallHeadline>
           <List>
-            <li>Flask</li>
-            <li>Docker</li>
-            <li>Sqlite3</li>
+            <li>TypeScript</li>
+            <li>NextJS</li>
           </List>
         </div>
       </ListWrapper>
