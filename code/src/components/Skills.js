@@ -14,9 +14,9 @@ export const Skills = () => {
             <li>CSS3</li>
             <li>JavaScript ES6</li>
             <li>React</li>
-            <li>GitHub</li>
             <li>Redux</li>
             <li>Node.js</li>
+            <li>Express</li>
             <li>Mongoose</li>
             <li>Python</li>
             <li>Flask</li>
@@ -29,6 +29,7 @@ export const Skills = () => {
           <List>
             <li>Visual Studio Code</li>
             <li>GCP</li>
+            <li>GitHub</li>
             <li>Mongo DB</li>
             <li>Docker</li>
             <li>Figma</li>

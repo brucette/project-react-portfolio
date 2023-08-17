@@ -6,7 +6,7 @@ export const Tech = () => {
     <OuterWrapper>
       <MainHeadline>TECH</MainHeadline>
       <InnerWrapper>
-        <Paragraph>JavaScript ES6, React, Node.js, HTML, CSS, Flexbox, JSX, React Hooks,
+        <Paragraph>JavaScript ES6, React, JSX, React Hooks, HTML, CSS, Node.js, Express, Flexbox,
         Redux,  Mongo DB, Web Accessibility, Responsive Design, REST APIs, Mob-programming,
         Pair-programming, Git, Python, C, Flask, Sqlite3, Docker.
         </Paragraph>
