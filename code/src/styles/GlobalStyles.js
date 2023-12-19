@@ -5,6 +5,8 @@ export const OuterWrapper = styled.section`
   background-color: ${(props) => props.backGroundcolor};
   text-align: center;
   padding: 2rem 0;
+  //border: 2px solid green;
+
 
   @media (min-width: 668px) {
     padding: 3.5rem 1rem;
@@ -26,11 +28,14 @@ export const InnerWrapper = styled(HeaderWrapper)`
   padding-top: 0rem;
   background-color: ${(props) => props.backGroundcolor};
   padding-bottom: 2.5rem;
+  //border: 2px solid red;
+  //width: 70%;
+
 
   @media (min-width: 668px) {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 `
 
@@ -46,6 +51,10 @@ export const Paragraph = styled.p`
   line-height: 1.8rem;
   padding-top: 0.8rem;
   margin: 0 auto;
+  
+  a {
+    color: "white";
+  }
 
   @media (min-width: 668px) {
     font-size: 1.2rem;
@@ -59,12 +68,12 @@ export const Paragraph = styled.p`
 
 export const MainHeadline = styled.h2`
   font-family: 'Montserrat';
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.35rem;
   line-height: 1.7rem;
   background-color: #BA4C08;
   padding: 2px;
-  border-radius: 5px;
+  border-radius: 3px;
   display: inline-block;
   width: fit-content;
   text-align: center;
@@ -110,6 +119,8 @@ export const ProjectCard = styled.section`
   flex-direction: column;
   margin-bottom: 2rem;
   margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: none;
   text-align: left;
   border-radius: 5px;
@@ -123,7 +134,7 @@ export const ProjectCard = styled.section`
   }
 
   @media (min-width: 1025px) {
-    width: 35vw;
+    width: 33vw;
   }
 `
 
@@ -145,5 +156,54 @@ export const Tag = styled.span`
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
   padding: 3px;
+  border-radius: 2px;
+  font-size: 14px;
+`
+
+export const ImageContainer = styled.div`
+  position: relative;
+  /* This transition will cause the text to fade */
+  transition: 0.5s ease;
   border-radius: 5px;
+
+  &:hover > .title {
+    color: transparent;
+  }
+`
+
+export const ImageOverlay = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  /* This is a semi-transparent overlay on the image */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* This will cause the overlay to fade */
+  transition: 0.5s ease;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: transparent;
+  }
+`
+
+export const OverlayTitle = styled.p`
+  text-align: center;
+  position: absolute;
+  top: 33%;
+  left: 25%;
+  right: 26%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+`
+
+export const Link = styled.a`
+  font-weight: bold;
+  color: #555;
+  font-family: Montserrat;
+
+  &:hover {
+    color: #BA4C08;
+  }
 `

@@ -5,14 +5,14 @@ import { OtherProjects } from './OtherProjects';
 
 export const FeatProjects = () => {
   return (
-    <OuterWrapper backGroundcolor="#f4f4f4">
+    <OuterWrapper>
       <MainHeadline>FEATURED PROJECTS</MainHeadline>
-      <InnerWrapper backGroundcolor="#f4f4f4">
+      <InnerWrapper>
         <MainProjects />
       </InnerWrapper>
 
       <MediumHeadline color="#BA4C08">OTHER PROJECTS</MediumHeadline>
-      <AlignLeftWrapper backGroundcolor="#f4f4f4">
+      <AlignLeftWrapper>
         <OtherProjects />
       </AlignLeftWrapper>
     </OuterWrapper>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BASE_URL, PROJECT_THUMBNAIL, AUTH_THUMBNAIL } from 'utils/urls';
-import styled from 'styled-components/macro';
-import { ProjectCard, Image, SmallHeadline, Tags, Tag } from 'styles/GlobalStyles';
+// import styled from 'styled-components/macro';
+import { ProjectCard, Image, SmallHeadline, Tags, Tag, ImageContainer, ImageOverlay, OverlayTitle, Link } from 'styles/GlobalStyles';
 
 export const MainProjects = () => {
   const [projects, setProjects] = useState([]);
@@ -95,50 +95,50 @@ export const MainProjects = () => {
 }
 
 // STYLING FOR THE ABOVE REACT COMPONENT
-const ImageContainer = styled.div`
-  position: relative;
-  /* This transition will cause the text to fade */
-  transition: 0.5s ease;
-  border-radius: 5px;
+// const ImageContainer = styled.div`
+//   position: relative;
+//   /* This transition will cause the text to fade */
+//   transition: 0.5s ease;
+//   border-radius: 5px;
 
-  &:hover > .title {
-    color: transparent;
-  }
-`
+//   &:hover > .title {
+//     color: transparent;
+//   }
+// `
 
-const ImageOverlay = styled.div`
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* This is a semi-transparent overlay on the image */
-  background-color: rgba(0, 0, 0, 0.5);
-  /* This will cause the overlay to fade */
-  transition: 0.5s ease;
-  border-radius: 5px;
+// const ImageOverlay = styled.div`
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   /* This is a semi-transparent overlay on the image */
+//   background-color: rgba(0, 0, 0, 0.5);
+//   /* This will cause the overlay to fade */
+//   transition: 0.5s ease;
+//   border-radius: 5px;
 
-  &:hover {
-    background-color: transparent;
-  }
-`
+//   &:hover {
+//     background-color: transparent;
+//   }
+// `
 
-const OverlayTitle = styled.p`
-  text-align: center;
-  position: absolute;
-  top: 33%;
-  left: 25%;
-  right: 26%;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-`
+// const OverlayTitle = styled.p`
+//   text-align: center;
+//   position: absolute;
+//   top: 33%;
+//   left: 25%;
+//   right: 26%;
+//   color: white;
+//   font-size: 1.5rem;
+//   font-weight: 700;
+//   text-transform: uppercase;
+// `
 
-const Link = styled.a`
-  font-weight: bold;
-  color: #555;
-  font-family: Montserrat;
+// const Link = styled.a`
+//   font-weight: bold;
+//   color: #555;
+//   font-family: Montserrat;
 
-  &:hover {
-    color: #BA4C08;
-  }
-`
+//   &:hover {
+//     color: #BA4C08;
+//   }
+// `

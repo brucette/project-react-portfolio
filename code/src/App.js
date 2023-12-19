@@ -1,4 +1,5 @@
 import React from 'react';
+import { ClientProjects } from 'components/ClientProjects';
 import { Header } from './components/Header';
 import { Intro } from './components/Intro';
 import { Tech } from './components/Tech';
@@ -14,6 +15,7 @@ export const App = () => {
       <Header />
       <Intro />
       <Tech />
+      <ClientProjects />
       <FeatProjects />
       <MyThoughts />
       <Skills />
