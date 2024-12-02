@@ -11,6 +11,7 @@ export const Skills = () => {
           <SmallHeadline>CODE</SmallHeadline>
           <List>
             <li>HTML5</li>
+            <li>C#</li>
             <li>CSS3</li>
             <li>JavaScript ES6</li>
             <li>React</li>
