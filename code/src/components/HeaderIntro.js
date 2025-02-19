@@ -5,7 +5,7 @@ export const HeaderIntro = () => {
   return (
     <HeaderParagraph>
       <p>PORTFOLIO: <span>TINA BRUCE</span></p>
-      <h1>frontend developer</h1>
+      <h1>developer</h1>
       <h2>with pharmaceutical industry background</h2>
     </HeaderParagraph>
   )
