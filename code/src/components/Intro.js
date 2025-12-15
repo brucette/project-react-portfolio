@@ -9,7 +9,7 @@ export const Intro = () => {
       <InnerWrapper backGroundcolor="#f4f4f4">
         <Paragraph>
           <StartFigure src={startFigure} alt="lollipop separator" />
-           Hello! I am a frontend developer who previously worked with clinical trial
+           Hello! I am a fullstack developer who previously worked with clinical trial
            start-up in the pharmaceutical industry. Detail-oriented and a relentless
            problem solver, the puzzle-like aspect of programming is what
            draws me to it the most - understanding how things connect and seeing the
